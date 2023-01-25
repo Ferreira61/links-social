@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	/*background-image: linear-gradient(500deg, rgb(26, 25, 25), rgb(53, 53, 53), rgb(88, 86, 86));*/
+	background-image: url("https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=996&t=st=1674614769~exp=1674615369~hmac=8b423244ec7195f4dc54eb93c5be4d2602d79874d32e31fe4b16a73cfbebaef8");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 150vw;
+
+}
+
+
+ul {
+	list-style: none;
+  font-family: 'Poppins', sans-serif;
+	text-align: center;
+	
+}
+
+.nome-titulo {
+	max-width: 480px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255, 68, 0, 0.911);
+	font-size: 30px;
+	padding-top: 12px;
+
+}
+
+/*.nome-titulo:hover {
+	background-color: aqua;
+}*/
+
+.wrapper{
+	max-width: 420px;
+	margin: 0 auto;
+
+}
+
+.person-img {
+	object-fit: cover;
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 50%;
+	border: 3px solid black;
+	position: relative;
+	left: 3px;
+	justify-content: center;
+}
+
+.links{
+	margin-top: 36px;
+
+}
+
+.links-list {
+	display: grid;	
+	gap: 16px;
+
+}
+
+.links-list li a {
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 4px;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	padding: 12px 0;
+	font-family: 'PT Sans Caption', sans-serif;
+	color: rgba(255, 68, 0, 0.911);
+	/* background-image: linear-gradient(520deg, black, grey); */ 
+	background-color: rgba(0, 0, 0, 0.37);
+}
+
+.links-list li a:hover {
+	background-color: rgba(255, 115, 0, 0.719);
+	color: white;
+	transition: all 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.social{
+	margin-top: 64px;
+}
+
+.social-links {
+	display: flex;
+	gap: 32px;
+	justify-content: center;
+	
+}
+
+.social-links li:hover {
+  transform: scale(1.5); /* aumenta o tamanho do ícone em 50% */
+	transition: transform 0.5s;
+  transition-timing-function: ease-in-out;
+	stroke: aliceblue;
+}
+
+/*.social-links li a svg path:hover {
+	stroke: aliceblue;
+}*/
+
+.social-links li:hover a svg path {
+	stroke: aliceblue;
+}
+
+.social-links li a svg path {
+	max-width: 24px;
+	max-height: 24px;
+	stroke: rgba(255, 68, 0, 0.911);
+}
+
+
+
+
+
